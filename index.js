@@ -3,7 +3,7 @@ import url from 'url';
 import qs from 'querystring';
 
 var FN = function () {};
-export var $events = $('<div/>');
+export var $events = $({});
 export var history = {};
 
 /**
