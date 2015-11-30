@@ -6,6 +6,11 @@
   "scripts": {
     "test": "karma start --single-run"
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "author": "Daniel Grant",
   "license": "MIT"
 }
