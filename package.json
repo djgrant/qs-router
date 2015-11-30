@@ -1,5 +1,5 @@
 {
-  "name": "query-router",
+  "name": "qs-router",
   "version": "1.0.0",
   "description": "A simple router for handling UI state change in query strings",
   "main": "index.js",
