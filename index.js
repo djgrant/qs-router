@@ -127,7 +127,7 @@ export function appendQuery(query, _url=location) {
 export function replaceQuery(query, _url=location) {
   var urlObj = parseUrl(_url);
   var newQS = qs.stringify(query);
-  var newLocation = $.extend({}, urlObj, { search: newQS });
+  var newLocation = Object.assign({}, urlObj, { search: newQS });
   return url.format(newLocation);
 }
 
