@@ -1,0 +1,11 @@
+{
+  "name": "query-router",
+  "version": "1.0.0",
+  "description": "A simple router for handling UI state change in query strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "author": "Daniel Grant",
+  "license": "MIT"
+}
